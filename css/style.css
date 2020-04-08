@@ -94,7 +94,13 @@ aside{
 .loisir-icon{
     display: flex;
     justify-content: space-around;
-    margin-top: 80px;
+    margin-top: 80px;       
+}
+.loisir-icon  i { 
+  border: 3px black solid;
+  border-radius: 50%;
+  padding: 8px;
+  
 }
 aside h3{
     text-align: center;
@@ -200,7 +206,7 @@ h4{
     }
     .contact{
         text-align: center;
-        font-weight: bold;
+        
     }
 
     .recommandation{
@@ -224,6 +230,9 @@ h4{
     }
     .loisir{
         margin-bottom: 70px;
+    }
+    h3 , .contact{
+        margin-top: 0px;
     }
 }
 
